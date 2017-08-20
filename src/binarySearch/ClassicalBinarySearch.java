@@ -1,6 +1,17 @@
 package binarySearch;
 
-public class BasicBinarySearch {
+/**
+ * Find any position of a target number in a sorted array
+ * return -1 if target does not exist
+ * 
+ * Example
+ * given [1, 2, 2, 4, 5, 5]
+ * for target = 2, return 1 or 2
+ * for target = 5, return 4 or 5
+ * for target = 6, return -1
+ */
+
+public class ClassicalBinarySearch {
     /**
      * @param A an integer array sorted in ascending order
      * @param target an integer

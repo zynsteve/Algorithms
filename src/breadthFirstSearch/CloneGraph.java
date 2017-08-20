@@ -65,7 +65,7 @@ public class CloneGraph {
         while (!queue.isEmpty()) {
             UndirectedGraphNode head = queue.poll();
             for (UndirectedGraphNode neighbor : head.neighbors) {
-                if(!set.contains(neighbor)){
+                if (!set.contains(neighbor)){
                     set.add(neighbor);
                     queue.offer(neighbor);
                 }
